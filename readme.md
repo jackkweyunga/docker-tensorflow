@@ -1,5 +1,8 @@
 Experimenting faster and effecient docker builds for projects including tensorflow ( which is large ).
 
+## Using Tensorflow Docker Image with GPU
+REF: https://www.tensorflow.org/install/docker
+
 ## Method 1 (Not recommended)
 Manual installation of tensorflow as a python package.
 - Not implemented

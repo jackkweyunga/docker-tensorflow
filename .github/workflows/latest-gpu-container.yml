@@ -1,4 +1,4 @@
-name: nightly-tag
+name: latest-tag
 
 on:
   workflow_dispatch:
@@ -47,7 +47,7 @@ jobs:
     - name: Build and push hash tagged image
       uses: docker/build-push-action@v2
       with:
-        context: ./tensor-flow-base-images/nightly
+        context: ./tensor-flow-base-images/latest-gpu
         push: true
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}

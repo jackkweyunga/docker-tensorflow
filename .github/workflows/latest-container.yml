@@ -44,12 +44,6 @@ jobs:
           prefix=
           suffix=
 
-    - name: Add .env.local file
-      run: |
-        cat << EOF > .env.local
-        NEXTAUTH_SECRET="TDfUpRe9PyhbFFgQY48No4mvxaFgkoeyfcNa9S1mS7I="
-        EOF
-
     - name: Build and push hash tagged image
       uses: docker/build-push-action@v2
       with:

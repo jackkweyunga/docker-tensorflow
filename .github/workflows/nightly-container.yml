@@ -1,4 +1,4 @@
-name: latest-tag
+name: nightly-tag
 
 on:
   workflow_dispatch:

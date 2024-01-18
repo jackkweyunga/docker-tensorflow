@@ -1,4 +1,4 @@
-name: latest-tag
+name: gpu latest-tag
 
 on:
   workflow_dispatch:

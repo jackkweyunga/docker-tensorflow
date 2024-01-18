@@ -12,6 +12,7 @@ jobs:
   build-publish-deploy:
     name: build and push docker
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
 
     - name: checkout
